@@ -1,0 +1,71 @@
+/*Universal*/
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Nav */
+
+nav {
+    padding-top: 20px;
+}
+
+li {
+    display: inline;
+    padding: 70px;
+    font-family: quicksand;
+    font-weight: 550;
+    color: #005454;
+}
+
+.logo {
+    max-width: 200px;
+}
+
+/*Main*/
+
+main {
+    background-image: url("Backgroundimg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+.description {
+    font-family: quicksand;
+    text-align: center;
+    font-size: 20px;
+    color: #F8D7DB;
+    background-color: #009FA0;
+    padding: 30px;
+    margin: 200px 0;
+}
+
+.products, .about {
+    font-family: quicksand;
+    font-weight: bold;
+    color: #005454;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.about {
+    background-color: #F8D7DB;
+}
+
+.product {
+    flex-grow: 1;
+    flex-shrink: 3;
+    flex-wrap: wrap;
+}
+
+#intro {
+    font-size: 16px;
+    max-width: 1000px;
+}
+
+.photo {
+    max-width: 400px;
+}
